@@ -27,7 +27,7 @@ It then looks for the translations in the [strings] JSON file with the same name
 
 The problem is that some clients (namely, Plex Home Theater) uses [ISO 639][iso-639] three-letter codes while the
 [documentation][strings] mentions only two-letter language codes. Some other clients don't send that header at all,
-but they may send the HTTP standard `Accept-Language` header that Plex ramework doesn't take into account.
+but they may send the HTTP standard `Accept-Language` header that Plex Framework doesn't take into account.
 
 Another problem is handling some unicode characters in the translated strings. Sometimes messages like this may be
 observed in the log files:
